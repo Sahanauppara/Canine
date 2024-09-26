@@ -1,0 +1,17 @@
+1 N=int(input())
+
+2 chocolates=list(map(int, input().strip().split()))
+
+3 total=0
+
+4 for jar in chocolates:
+
+5- if jar%3!=0:
+
+6 total+-jar//3+1
+
+7- else:
+
+8 total+=jar//3
+
+9 print(total)
